@@ -3,7 +3,7 @@ baseURL = "https://jonyig.github.io/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "My New Hugo Site"
+title = "Jonny"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -14,25 +14,26 @@ theme = "LoveIt"
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
+    identifier = "文章盒"
     # you can add extra information before the name (HTML format is allowed), such as icons
     pre = ""
-    name = "Posts"
+    name = "文章盒"
     url = "/posts/"
     # title will be shown when you hover on this menu link
-    title = ""
+    title = "文章盒"
     weight = 1
   [[menu.main]]
-    identifier = "tags"
+    identifier = "標籤盒"
     pre = ""
-    name = "Tags"
+    name = "標籤盒"
     url = "/tags/"
-    title = ""
+    title = "標籤盒"
     weight = 2
   [[menu.main]]
-    identifier = "categories"
+    identifier = "分類盒"
     pre = ""
-    name = "Categories"
+    name = "分類盒"
     url = "/categories/"
-    title = ""
+    title = "分類盒"
     weight = 3
+
