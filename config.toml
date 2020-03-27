@@ -8,12 +8,12 @@ title = "Jonny's Blog"
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
+
 [params]
   # LoveIt theme version
   version = "0.1.X"
 [params.footer]
     since = 2020
-    icp = "Jonny"
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
   [params.home]
     # 主页信息设置
@@ -42,11 +42,10 @@ theme = "LoveIt"
     title = "文章盒"
     weight = 1
   [[menu.main]]
-    identifier = "標籤盒"
+    identifier = "分類盒"
     pre = ""
-    name = "標籤盒"
-    url = "/tags/"
-    title = "標籤盒"
+    name = "分類盒"
+    url = "/categories/"
+    title = "分類盒"
     weight = 2
-
 
