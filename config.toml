@@ -7,7 +7,8 @@ title = "Jonny's Blog"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
-
+hasCJKLanguage = true
+summaryLength = 25
 
 [params]
   # LoveIt theme version
@@ -44,8 +45,15 @@ theme = "LoveIt"
   [[menu.main]]
     identifier = "分類盒"
     pre = ""
-    name = "分類盒"
+    ## name = "分類盒" //不顯示在主頁
     url = "/categories/"
     title = "分類盒"
     weight = 2
+  [[menu.main]]
+    identifier = "標籤盒"
+    pre = ""
+    # name = "標籤盒"
+    url = "/tags/"
+    title = "標籤盒"
+    weight = 3
 
