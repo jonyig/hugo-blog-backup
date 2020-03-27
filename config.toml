@@ -3,7 +3,7 @@ baseURL = "https://jonyig.github.io/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "Jonny"
+title = "Jonny's Blog"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -11,7 +11,26 @@ theme = "LoveIt"
 [params]
   # LoveIt theme version
   version = "0.1.X"
+[params.footer]
+    since = 2020
+    icp = "Jonny"
+    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  [params.home]
+    # 主页信息设置
+    [params.home.profile]
+      enable = true
+      avatarURL = "avatar.png"
+      subtitle = "Coding、Cat、Mountain、Beach"
+      typeit = true
+      social = true
+  [params.social]
+    Email = "ji394su311203106@gmail.com"
+    GitHub = "jonyig"
 
+# 作者信息
+[author]
+  name = "Jonny"
+  link = ""
 [menu]
   [[menu.main]]
     identifier = "文章盒"
@@ -29,11 +48,5 @@ theme = "LoveIt"
     url = "/tags/"
     title = "標籤盒"
     weight = 2
-  [[menu.main]]
-    identifier = "分類盒"
-    pre = ""
-    name = "分類盒"
-    url = "/categories/"
-    title = "分類盒"
-    weight = 3
+
 
