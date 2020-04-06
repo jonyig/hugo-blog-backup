@@ -5,6 +5,7 @@ categories: ["github"]
 tags: ["git","github"]
 draft: true
 description: ""
+comment: true
 ---
 
 ## 前言
@@ -15,7 +16,6 @@ description: ""
 
 所以這篇要來紀錄如何使用 Github Action 去自動更新 Github Pages 
 
-瞭解如何在 Zeit 中使用 .env
 
 ## 加入檔案
 
@@ -92,6 +92,7 @@ Action 就會自己更新了
 
 ## 參考文章
    - [Github - CICD 使用 Actions 以 React 建置 pages 為例](https://dotblogs.com.tw/explooosion/2019/09/06/152105)
+   - [上傳至 Github Pages](https://ithelp.ithome.com.tw/articles/10228423)
 
 
  
