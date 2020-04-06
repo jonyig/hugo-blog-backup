@@ -45,7 +45,7 @@ summaryLength = 25
   [[menu.main]]
     identifier = "分類盒"
     pre = ""
-    ## name = "分類盒" //不顯示在主頁
+    name = "分類盒"
     url = "/categories/"
     title = "分類盒"
     weight = 2
