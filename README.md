@@ -9,3 +9,14 @@
 git clone -b master https://github.com/dillonzq/LoveIt.git themes/LoveIt
 
 執行這一行 即可以正常運作
+
+---
+##新增文章
+```
+hugo new posts/****.md
+```
+
+##測試
+```
+hugo server -D
+```
