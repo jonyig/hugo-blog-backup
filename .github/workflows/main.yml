@@ -13,9 +13,10 @@ jobs:
           submodules: true
 
       - name: Setup Hugo
-          uses: peaceiris/actions-hugo@master
-          with:
-            hugo-version: '0.64.1'
+        uses: peaceiris/actions-hugo@master
+        with:
+          hugo-version: '0.64.1'
+
       - name: build
         run: hugo --minify
 
