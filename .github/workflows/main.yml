@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: build
-        run: hugo -D
+        run: sudo apt-get install hugo & hugo -D
       - name: sync
         uses: jakejarvis/s3-sync-action@master
         with:
