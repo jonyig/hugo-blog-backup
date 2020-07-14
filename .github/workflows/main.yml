@@ -13,8 +13,9 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@master
         with:
-          hugo-version: '0.64.1'
+          hugo-version: '0.57.2'
           extended: true
+
       - name: build
         run: hugo --minify
 
