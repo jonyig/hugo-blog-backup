@@ -20,3 +20,9 @@ hugo new posts/****.md
 ```
 hugo server -D
 ```
+
+##部署
+
+```
+hugo deploy --maxDeletes -1 
+```
