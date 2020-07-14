@@ -68,3 +68,10 @@ googleAnalytics = "UA-162889782-1"
     title = "標籤盒"
     weight = 3
 
+[[deployment.targets]]
+    # An arbitrary name for this target.
+    name = "deployment"
+
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+    URL = "s3://blog.jonny.website?region=ap-northeast-1"
