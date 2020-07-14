@@ -16,7 +16,7 @@ jobs:
           hugo-version: '0.74.1'
 
       - name: build
-        run: hugo --minify
+        run: hugo -D
 
       - name: sync
         uses: jakejarvis/s3-sync-action@master
